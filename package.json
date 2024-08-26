@@ -1,26 +1,28 @@
 {
-	"name": "api-solid-node",
-	"version": "1.0.0",
-	"description": "Gympass style app.",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "tsx watch src/server.ts",
-		"build": "tsup src --out-dir build",
-		"start": "node build/server.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@types/node": "20.12.7",
-		"tsup": "8.0.2",
-		"tsx": "4.7.2",
-		"typescript": "5.4.5"
-	},
-	"dependencies": {
-		"dotenv": "16.4.5",
-		"fastify": "4.26.2",
-		"zod": "3.23.4"
-	}
+  "name": "api-solid-node",
+  "version": "1.0.0",
+  "description": "Gympass style app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "prisma": "^5.18.0",
+    "tsup": "8.0.2",
+    "tsx": "4.7.2",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "dotenv": "16.4.5",
+    "fastify": "4.26.2",
+    "zod": "3.23.4"
+  }
 }
