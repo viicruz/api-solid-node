@@ -9,7 +9,8 @@
     "start": "node build/server.js",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest run --ui"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "@types/bcryptjs": "^2.4.6",
     "@types/node": "20.12.7",
     "@vitest/coverage-v8": "^2.0.5",
+    "@vitest/ui": "2.0.5",
     "prisma": "^5.18.0",
     "tsup": "8.0.2",
     "tsx": "4.7.2",
